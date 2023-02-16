@@ -14,7 +14,7 @@ This project focuses on the ID3 algorithm in which the best attribute is one wit
 ## Train Data set
 The train data "income.train.csv" is a modified version of the "Adult" data set.
 In this version I have excluded the following attributes: age, fnlwgt, education-num, capital-gain, capital-loss and hours-per-week.
-The target field is named "label" and holds two possible values: <=50K and >50k regarding the individual's annual income.
+The target field is named "label" and holds two possible values: <=50K and >50k regarding the individual's annual income. This field is positioned at the rightmost position.
 
 ## Code
 In the code the final function "id3", creates the decision tree using three inputs; the train data set and the two possible values for the taget field.
